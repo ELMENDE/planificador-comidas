@@ -1,0 +1,33 @@
+node_modules/
+.expo/
+dist/
+web-build/
+*.log
+.DS_Store
+
+# Variables de entorno — nunca subir al repo
+.env
+.env.local
+.env*.local
+
+# Generado por Expo
+expo-env.d.ts
+
+# Builds nativos (generados por EAS)
+android/
+ios/
+
+# Python
+__pycache__/
+*.pyc
+generar_informe.py
+
+# PDF generado
+*.pdf
+
+# Editor
+.vscode/
+.idea/
+
+# Claude Code config local
+.claude/
