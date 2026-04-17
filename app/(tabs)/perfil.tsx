@@ -177,9 +177,9 @@ export default function PerfilScreen() {
   async function handleInvitar(grupoId: string) {
     try {
       const inv = await crearInvitacion(grupoId)
-      const link = `planificador://invitar/${inv.token}`
+      const link = `healthwise://invitar/${inv.token}`
       await Share.share({
-        message: `Unite a mi grupo familiar en Planificador de Comidas: ${link}`,
+        message: `Unite a mi grupo familiar en Healthwise: ${link}`,
       })
     } catch {}
   }
@@ -291,7 +291,7 @@ export default function PerfilScreen() {
             <Card className="gap-3">
               <H2>Unirse con codigo</H2>
               <Subtle>Pegá el link o codigo que te mandaron</Subtle>
-              <Input value={codigoInvite} onChangeText={setCodigoInvite} placeholder="planificador://invitar/abc123..." autoCapitalize="none" />
+              <Input value={codigoInvite} onChangeText={setCodigoInvite} placeholder="healthwise://invitar/abc123..." autoCapitalize="none" />
               <View className="flex-row gap-2">
                 <View className="flex-1"><Button variant="secondary" onPress={() => setUniendose(false)}>Cancelar</Button></View>
                 <View className="flex-1"><Button onPress={handleUnirseConCodigo}>Unirme</Button></View>

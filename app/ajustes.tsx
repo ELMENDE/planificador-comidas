@@ -134,7 +134,7 @@ export default function AjustesScreen() {
           <H2>Acerca de</H2>
           <Card>
             <Text className="text-sm font-semibold text-neutral-900 dark:text-neutral-100">
-              Planificador de comidas
+              Healthwise de comidas
             </Text>
             <Text className="text-xs text-neutral-500 mt-0.5">v0.3.0 — grupos + sync</Text>
             <Text className="text-xs text-neutral-500 mt-3">

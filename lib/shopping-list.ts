@@ -138,7 +138,7 @@ export function menuATexto(menu: MenuSemanal): string {
     lineas.push(`  🍝 ${dia.cena.nombre} (${dia.cena.calorias} kcal, ${dia.cena.tiempo_minutos} min)`)
     lineas.push('')
   }
-  lineas.push('Generado con Planificador de Comidas 🍳')
+  lineas.push('Generado con Healthwise 🍳')
   return lineas.join('\n').trim()
 }
 

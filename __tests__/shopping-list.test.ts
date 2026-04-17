@@ -198,7 +198,7 @@ describe('menuATexto', () => {
     expect(texto).toContain('Tostadas')
     expect(texto).toContain('Pollo al horno')
     expect(texto).toContain('Ensalada')
-    expect(texto).toContain('Planificador de Comidas')
+    expect(texto).toContain('Healthwise')
   })
 })
 

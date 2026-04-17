@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Planificador",
-    "slug": "planificador-comidas",
+    "name": "Healthwise",
+    "slug": "healthwise",
     "version": "0.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "scheme": "planificador",
+    "scheme": "healthwise",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
@@ -15,11 +15,11 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.usuario.planificador",
+      "bundleIdentifier": "com.elmende.healthwise",
       "infoPlist": {
         "CFBundleURLTypes": [
           {
-            "CFBundleURLSchemes": ["planificador"]
+            "CFBundleURLSchemes": ["healthwise"]
           }
         ]
       }
@@ -29,13 +29,13 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#fff7ed"
       },
-      "package": "com.usuario.planificador",
+      "package": "com.elmende.healthwise",
       "intentFilters": [
         {
           "action": "VIEW",
           "autoVerify": true,
           "data": [
-            { "scheme": "planificador", "host": "invitar", "pathPrefix": "/" }
+            { "scheme": "healthwise", "host": "invitar", "pathPrefix": "/" }
           ],
           "category": ["BROWSABLE", "DEFAULT"]
         }

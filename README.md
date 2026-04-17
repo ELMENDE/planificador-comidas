@@ -1,4 +1,4 @@
-# 🍽️ Planificador de Comidas
+# 🍃 Healthwise
 
 > Generá tu menú semanal personalizado con IA. Lista de compras automática, grupos familiares y sincronización en tiempo real.
 
@@ -121,8 +121,8 @@ landing/            # Landing page estática
 ### Instalación
 
 ```bash
-git clone https://github.com/tu-usuario/planificador-comidas
-cd planificador-comidas
+git clone https://github.com/tu-usuario/healthwise
+cd healthwise
 npm install --legacy-peer-deps
 ```
 

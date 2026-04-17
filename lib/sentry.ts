@@ -27,7 +27,7 @@ export function inicializarSentry() {
     // Entorno
     environment: __DEV__ ? 'development' : 'production',
     // Versión de la app
-    release: 'planificador-comidas@0.1.0',
+    release: 'healthwise@0.1.0',
     // Ignorar errores conocidos / no accionables
     ignoreErrors: [
       'Network request failed',

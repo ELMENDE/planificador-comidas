@@ -11,7 +11,7 @@ import type { Invitacion } from '@/types/menu'
 
 /**
  * Pantalla de aceptación de invitación.
- * Se llega via deep link: planificador://invitar/{token}
+ * Se llega via deep link: healthwise://invitar/{token}
  * o desde la app directamente: /invitar/{token}
  */
 export default function InvitarScreen() {
